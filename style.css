@@ -89,7 +89,8 @@ a {
 }
 
 .header nav a:not(.navcta):hover {
-    color: #b28c50;
+    color: #631125;
+    cursor: pointer;
 }
 
 .navcta {
@@ -97,11 +98,12 @@ a {
     color: white;
     padding: 12px 17px;
     transition: .25s;
+    border-radius: 20px;
 }
 
 .navcta:hover {
     background: #713047;
-    transform: translateY(-2px);
+    transform: translateY(2px);
 }
 
 #navcheck,
